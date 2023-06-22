@@ -1,0 +1,302 @@
+ body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url("https://images5.alphacoders.com/100/thumb-1920-1000939.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    min-height: 10vh;
+    border-style: inset;
+    border-width: 0.3rem;
+    border-color: grey;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin-top: 1.5rem;
+    padding: 0.3rem;
+    border-radius: 2.5rem;
+    font-size: 1.5rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem black;
+    background-image: linear-gradient(to top,black,black,black,white);
+    backdrop-filter: blur;
+}
+#container{
+    border-style: double;
+    border-color: white;
+    padding: 0.2rem;
+    width: 25rem;
+    border-radius: 2rem;
+    border-style: outset;
+    color: yellow;
+    font-family: fantasy;
+    letter-spacing: 0.02rem;
+    word-spacing: 0.2rem;
+}
+#r{
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 0.1rem;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+#btnf{
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.6rem;
+    border-style: inset;
+    border-color: yellow;
+    margin-top: 0.3rem;
+    margin-bottom: 0.4rem;
+    font-family: fantasy;
+    letter-spacing: 0.04rem;
+    font-size: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem black;
+    transition: background-color 2s;
+    transition: transform 0.1s;   
+}
+#btnf:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: translateY(-0.04rem);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    backdrop-filter: blur;
+    border-style: inset;
+    border-radius: 1.5rem;
+    box-shadow: 2rem 2rem 2rem black;
+    text-align: center;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin: 1rem;
+    font-size: 1.4rem;
+    border-style: inset;
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+    background-color: antiquewhite;
+    border-color: black;
+}
+li:hover{
+    background-color: black;
+}
+.nav p{
+    margin-left: 0.8rem;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.4rem;
+}
+.links a{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    transition: transform 2s;
+}
+.links a:hover{
+    color: white;
+}
+#log{
+    background-color: red;
+}
+#log:hover{
+    transform: translateY(-3rem);
+}
+@media (max-width:400px){
+    #containers{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    #container{
+        width:19rem;
+    }
+    .nav p{
+        margin-left: 0.8rem;
+        font-weight: bold;
+        font-family: cursive;
+        font-size: 1.3rem;
+        background-color: black;
+        border-radius: 4rem;
+        color:rgb(160, 109, 109)1, 81;
+        padding: 1rem;
+    }
+    .nav p{
+        font-size: 0.7rem;
+        padding: 0.2rem;
+        border-radius: 1rem;
+        width: 20%;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+    }
+    li{
+        list-style: none;
+        display: inline;
+        font-size: 0.5rem;
+        padding: 0.4rem;
+        margin-left: 0.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 0.1rem;
+        position: relative;
+        bottom: -0.3rem;
+    } 
+    #log{
+        position: relative;
+        bottom: -3rem;
+        left:4.5rem;
+    }
+    li a{
+       font-size: 1rem;
+       text-align: center;
+    }
+    #r{
+        color: white;
+        width: 9rem;
+        font-size: 0.9rem;
+    }
+
+}
+@media (max-width:610.40px){
+    #containers{
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+    }
+    #container{
+        width:19rem;
+    }
+    .nav p{
+        margin-left: 0.8rem;
+        font-weight: bold;
+        font-family: cursive;
+        font-size: 1.3rem;
+        background-color: black;
+        border-radius: 4rem;
+        color:rgb(160, 109, 109)1, 81;
+        padding: 1rem;
+    }
+    .nav p{
+        font-size: 0.7rem;
+        padding: 0.2rem;
+        border-radius: 1rem;
+        width: 20%;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+    }
+    li{
+        list-style: none;
+        display: inline;
+        font-size: 0.5rem;
+        padding: 0.4rem;
+        margin-left: 0.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 0.1rem;
+        position: relative;
+        bottom: -0.3rem;
+    } 
+    #log{
+        position: relative;
+        bottom: -3rem;
+        left:4.5rem;
+    }
+    li a{
+       font-size: 1rem;
+       text-align: center;
+    }
+    #r{
+        color: white;
+        width: 9rem;
+        font-size: 0.9rem;
+    }
+}
+@media (max-width:610.40px){
+    #log{
+        position: relative;
+        bottom: -0.3rem;
+        left:0.3rem;
+    }
+}
+@media (max-width:656px){
+    #containers{
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+    }
+    #container{
+        width:19rem;
+    }
+    .nav p{
+        margin-left: 0.8rem;
+        font-weight: bold;
+        font-family: cursive;
+        font-size: 1.3rem;
+        background-color: black;
+        border-radius: 4rem;
+        color:rgb(160, 109, 109)1, 81;
+        padding: 1rem;
+    }
+    .nav p{
+        font-size: 0.7rem;
+        padding: 0.2rem;
+        border-radius: 1rem;
+        width: 20%;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+    }
+    li{
+        list-style: none;
+        display: inline;
+        font-size: 0.5rem;
+        padding: 0.4rem;
+        margin-left: 0.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 0.1rem;
+        position: relative;
+        bottom: -0.3rem;
+    } 
+    #log{
+        position: relative;
+        bottom: -3rem;
+        left:4.5rem;
+    }
+    li a{
+       font-size: 1rem;
+       text-align: center;
+    }
+    #r{
+        color: white;
+        width: 9rem;
+        font-size: 0.9rem;
+    }
+    #log{
+        position: relative;
+        bottom: -0.3rem;
+        left: -1rem;
+    }
+}

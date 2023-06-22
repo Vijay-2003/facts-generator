@@ -1,0 +1,107 @@
+body{
+    background-image: linear-gradient(orange,yellow,white);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color:black;
+    border-style: inset;
+    width: 20%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    box-shadow: 1rem 1rem 1rem black;
+    backdrop-filter: blur(-20px);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    margin-bottom: 3rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    padding: 0.2rem 0.3rem;
+    border-radius: 0.5rem;
+    margin-top: 0.2rem;
+    transition: transform 1s;
+    transition: background-color 1s;
+}
+input:hover{
+    cursor: pointer;
+    transform: translateY(-0.5px);
+    color: white;
+    background-color: black;
+}
+#pass{
+    color: black;
+}
+#pass:hover{
+    background-color: orangered;
+    color: black;
+}
+#btn{
+    margin-top: 0.3rem;
+    width: 50%;
+    transition: transform 1s;
+    transition: background-color 1s;
+}
+#btn:hover{
+    transform: translateY(-0.5px);
+    color: white;
+    background-color: black;
+}
+span{
+    color: red;
+    text-decoration:underline;
+}
+@media (max-width:400px){
+    #sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    align-items: center;
+    margin-top: 2rem;
+    }
+    #btn{
+        margin-top: 0.8rem;
+    }
+    label{
+        margin-top: 2rem;
+    }
+}
+@media (max-width:610.40px) {
+    #sign{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        align-items: center;
+        margin-top: 2rem;
+    }
+}
+@media (max-width:656px) {
+    #sign{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        align-items: center;
+        margin-top: 2rem;
+    }
+}
